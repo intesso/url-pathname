@@ -1,11 +1,11 @@
 {
   "name": "url-pathname",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "returns the url pathname from a url string",
   "main": "index.js",
   "scripts": {
     "test": " browserify test.js | testling",
-    "build" : "browserify index.js --standalone urlPathname > url-pathname.js",
+    "build": "browserify index.js --standalone urlPathname > url-pathname.js",
     "build-test": "browserify test.js > test-bundle.js"
   },
   "repository": {
