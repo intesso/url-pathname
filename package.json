@@ -1,0 +1,31 @@
+{
+  "name": "url-pathname",
+  "version": "1.0.0",
+  "description": "returns the url pathname from a url string",
+  "main": "index.js",
+  "scripts": {
+    "test": " browserify test.js | testling",
+    "build" : "browserify index.js --standalone urlPathname > url-pathname.js",
+    "build-test": "browserify test.js > test-bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intesso/url-pathname.git"
+  },
+  "keywords": [
+    "url",
+    "pathname",
+    "domain",
+    "server"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intesso/url-pathname/issues"
+  },
+  "homepage": "https://github.com/intesso/url-pathname",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "tape": "^4.2.0"
+  }
+}
